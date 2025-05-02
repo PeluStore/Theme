@@ -20,10 +20,18 @@
             "text": "Gracias por visitar nuestra tienda !!",
             "link": ""
           }
+        },
+        "announcement_nh7xQc": {
+          "type": "announcement",
+          "settings": {
+            "text": "No te olvides de seguirnos en nuestras redes sociales !!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_nh7xQc"
       ],
       "settings": {
         "auto_rotate": false,
