@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Encuentra nuestros mejores productos !!",
+            "heading": "Encuentra nuestros mejores productos para tu compañero y amigo!!",
             "heading_size": "h1"
           }
         },
@@ -54,7 +54,7 @@
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "Featured products",
+        "title": "Productos destacados",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
