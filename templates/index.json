@@ -37,9 +37,9 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Portada_para_pc.png",
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
-        "image_behavior": "zoom-in",
+        "image_behavior": "fixed",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
@@ -47,6 +47,54 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "image_with_text_nYy3ix": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iCXEKB": {
+          "type": "heading",
+          "settings": {
+            "heading": "🦴🐾 ¡Amigos peludos, artículos felices! 🐾🐱",
+            "heading_size": "h2"
+          }
+        },
+        "text_qFztrh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Descubre los productos que harán saltar de alegría a tu perro y ronronear de gusto a tu gato. ¡Juguetes, camas, accesorios y más!<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_HEYD9F": {
+          "type": "button",
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iCXEKB",
+        "text_qFztrh",
+        "button_HEYD9F"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/7KJWSsiN.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -80,6 +128,7 @@
   },
   "order": [
     "image_banner",
+    "image_with_text_nYy3ix",
     "featured_collection"
   ]
 }
