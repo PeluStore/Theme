@@ -49,54 +49,6 @@
         "show_text_below": false
       }
     },
-    "image_with_text_nYy3ix": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_iCXEKB": {
-          "type": "heading",
-          "settings": {
-            "heading": "🦴🐾 ¡Amigos peludos, artículos felices! 🐾🐱",
-            "heading_size": "h2"
-          }
-        },
-        "text_qFztrh": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>Descubre los productos que harán saltar de alegría a tu perro y ronronear de gusto a tu gato. ¡Juguetes, camas, accesorios y más!<br/><br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_HEYD9F": {
-          "type": "button",
-          "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_iCXEKB",
-        "text_qFztrh",
-        "button_HEYD9F"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/7KJWSsiN.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "zoom-in",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-4",
-        "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -124,11 +76,81 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "featured_product_TiVqCT": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Dz7pg3": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_gqzihn": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_kcghyY": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_XkFCWy": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_jkQTXh": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_m7tEAw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_VxpQnj": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        }
+      },
+      "block_order": [
+        "text_Dz7pg3",
+        "title_gqzihn",
+        "price_kcghyY",
+        "variant_picker_XkFCWy",
+        "quantity_selector_jkQTXh",
+        "buy_buttons_m7tEAw",
+        "share_VxpQnj"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "image_with_text_nYy3ix",
-    "featured_collection"
+    "featured_collection",
+    "featured_product_TiVqCT"
   ]
 }
